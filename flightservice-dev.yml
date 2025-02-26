@@ -23,7 +23,7 @@ spring:
       hibernate:
         format-sql: "true"
   sql:
-    init.mode: "always
+    init.mode: "always"
 
 
 management:
