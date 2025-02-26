@@ -24,3 +24,19 @@ spring:
         format-sql: "true"
   sql:
     init.mode: "always"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh
+  info:
+    env:
+      enabled: true
+      
+info:
+  app:
+    encoding: UTF-8
+    java:
+      source: 17
+    name: Spring Passenger Service (Profile - Dev) - V2
